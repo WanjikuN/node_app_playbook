@@ -9,7 +9,8 @@ vagrant up
 ```
 * Once configuration is done, visit http://<server_ip> in a browser
 ---
-## Issues
+## Issues solved
 
-No output on browser yet
+No output on browser
+* solve this by adjusting path to forever module
 
