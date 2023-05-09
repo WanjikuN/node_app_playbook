@@ -2,6 +2,7 @@
 
 ## Configurations to run a Node.js application
 ## Run app
+*Configure hosts in your inventory file
 * Open the directory where your Vagrant fie is located.
 ```
 vagrant up
