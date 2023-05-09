@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "generic/centos7"
   config.vm.hostname = "moringa.test"
-  config.vm.network :private_network, ip: "192.168.60.9"
+  config.vm.network :private_network, ip: "192.168.60.6"
   config.ssh.insert_key = false
   config.vm.synced_folder ".", "/vagrant", disabled: true
 
